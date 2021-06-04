@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    line-height: 100vh;
+}
+
+span{
+    opacity: 0;
+    transition: all 1.5s ease;
+    transform: translateY(150px);
+    display: inline-block;
+}
+
+span.animation{
+    opacity: 1;
+    transform: translateY(0px);
+    color: rgb(248, 151, 151);
+}
