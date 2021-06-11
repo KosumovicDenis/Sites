@@ -46,7 +46,7 @@ button:hover{
     position: absolute;
     width: 50px;
     height: 50px;
-    background: rgb(82, 119, 12);
+    background: rgb(64, 119, 12);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
 }
 .block:nth-child(3n + 2){
