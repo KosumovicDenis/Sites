@@ -22,7 +22,7 @@ section div.row2{
     transform: rotate(-30deg);
 }
 i{
-    color: rgba(104, 73, 73, 0.5);
+    color: rgba(94, 85, 85, 0.5);
     transition: 1s;
     padding: 0 5px;
     user-select: none;
@@ -34,14 +34,14 @@ i:hover{
     text-shadow: 0 0 120px rgb(46, 7, 71);
 }
 section div.row2 div{
-    animation: animate1 80s linear infinite;
+    animation: FirstAnimation 80s linear infinite;
     animation-delay: -80s;
 }
 section div.row2 div:nth-child(2){
-    animation: animate2 80s linear infinite;
+    animation: SecondAnimation 80s linear infinite;
     animation-delay: -40s;
 }
-@keyframes animate1{
+@keyframes FirstAnimation{
     0%{
         transform: translateX(100%);
     }
@@ -50,7 +50,7 @@ section div.row2 div:nth-child(2){
     }
 }
 
-@keyframes animate2{
+@keyframes SecondAnimation{
     0%{
         transform: translateX(0%);
     }
@@ -58,18 +58,15 @@ section div.row2 div:nth-child(2){
         transform: translateX(-200%);
     }
 }
-
-
-
 section div.row2:nth-child(even) div{
-    animation: animate3 80s linear infinite;
+    animation: ThirdAnimation 80s linear infinite;
     animation-delay: -80s;
 }
 section div.row2:nth-child(even) div:nth-child(2){
-    animation: animate4 80s linear infinite;
+    animation: FourthAnimation 80s linear infinite;
     animation-delay: -40s;
 }
-@keyframes animate3{
+@keyframes ThirdAnimation{
     0%{
         transform: translateX(-100%);
     }
@@ -78,7 +75,7 @@ section div.row2:nth-child(even) div:nth-child(2){
     }
 }
 
-@keyframes animate4{
+@keyframes FourthAnimation{
     0%{
         transform: translateX(-200%);
     }
@@ -86,5 +83,3 @@ section div.row2:nth-child(even) div:nth-child(2){
         transform: translateX(0);
     }
 }
-
-
