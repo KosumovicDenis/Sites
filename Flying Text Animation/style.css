@@ -10,15 +10,22 @@ section{
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
-    background: #74672f;
+    background: #423b1d;
 }
 section .text{
     position: relative;
     text-align: center;
-    color: #fee500;
+    color: #ffffff;
     margin: 40px;
-    max-width: 650px;
+    max-width: 650px;   
+    transition: 1s;
 }
+section .text:hover{
+    color: #000000;
+}
+/*section .text:hover > section .text{
+    background: #fff;
+}*/
 section .text span{
     position: relative;
     display: inline-block;
