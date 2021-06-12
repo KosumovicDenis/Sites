@@ -1,4 +1,4 @@
-# Some Css/Js Animation.
+# Some Css/Js Animations.
 
 Hi, in this repository you can find some animations made with css and js.
 <p>Examples:</p>
