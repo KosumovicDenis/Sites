@@ -7,12 +7,59 @@
     width: 100%;
     height: 100vh;
     overflow: auto;
+    scroll-snap-type: y mandatory;
 }
 .container-n .section{
     position: relative;
     width: 100%;
     height: 100%;
+    background-blend-mode: multiply;
+    scroll-snap-align: start;
 }
 .container-n .section:nth-child(1){
-    background: url();
+    background: rgba(0, 0, 255, 0.4) url(bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-n .section:nth-child(2){
+    background: rgba(0, 0, 0, 0.1) url(bg2.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-n .section:nth-child(3){
+    background: rgba(0, 255, 0, 0.2) url(bg3.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-n .section:nth-child(4){
+    background: rgba(0, 0, 255, 0.1) url(bg4.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+.container-n .section:nth-child(5){
+    background: rgba(255, 255, 255, 1) url(bg5.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-n .section .content{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    max-width: 700px;
+}
+.container-n .section .content h2{
+    background-color: #fff;
+    color: #111;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 2em;
+}
+.container-n .section .content p{
+    background-color: #fff;
+    color: #111;
+    font-weight: 300;
+    padding: 10px 20px;
+    margin-top: 10px;
 }
