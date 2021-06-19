@@ -13,8 +13,8 @@ body{
 }
 .glowing{
     position: relative;
-    min-width: 750px;
-    height: 750px;
+    min-width: 550px;
+    height: 550px;
     margin: -150px;
     transform-origin: right;
     animation: colorChange 5s linear infinite;
