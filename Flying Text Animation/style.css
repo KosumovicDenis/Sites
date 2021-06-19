@@ -15,13 +15,10 @@ section{
 section .text{
     position: relative;
     text-align: center;
+    font-size: .9rem;
     color: #ffffff;
-    margin: 40px;
     max-width: 650px;   
     transition: 1s;
-}
-section .text:hover{
-    color: #000000;
 }
 /*section .text:hover > section .text{
     background: #fff;
