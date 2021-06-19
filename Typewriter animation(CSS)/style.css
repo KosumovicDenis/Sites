@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
 
 :root{
-    --bg-color: hsl(5 52% 60%);
-    --typevelocity: 6s;
-    --characters : 34;
+    --bg-color: hsl(200 80% 20%);
+    --typevelocity: 8s;
+    --characters : 38;
     --fontColor : #fff;
 }
 body{
