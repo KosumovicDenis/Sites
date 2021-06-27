@@ -49,13 +49,13 @@ button:hover{
     background: rgb(64, 119, 12);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
 }
-.block:nth-child(3n + 2){
+.block:nth-child(4n + 2){
     background-color: rgb(163, 10, 10);
     border-radius: 50%;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
 
 }
-.block:nth-child(3n + 3){
+.block:nth-child(4n + 3){
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
     background-color: #f19c3b;
     width: calc(15vw / 6);
@@ -63,4 +63,10 @@ button:hover{
     clip-path: polygon(50% 0%, 97% 25%, 97% 75%, 50% 100%, 3% 75%, 3% 25%);
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
+}
+.block:nth-child(4n + 4){
+    border-radius: 50%;
+    border-width: 30px;
+    border-color: red blue green yellow;
+    border-style: solid;
 }
