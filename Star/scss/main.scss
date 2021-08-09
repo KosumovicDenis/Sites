@@ -1,0 +1,26 @@
+$base-color: #24d;
+$bg-dark: rgb(0, 16, 85);
+$border-light: rgb(18, 4, 114);
+$bg-light: rgb(35, 71, 148);
+
+body{
+    background: $bg-dark;
+    .bg-light{
+        background: $bg-light !important;
+    }
+    .container{
+        margin-top: 100px;
+        padding: 70px;
+        border-radius: 10px;
+        .row{
+            img{
+                border-radius: 10px;
+                box-shadow: 0 0 0 2px $border-light,
+                            0 0 20px $border-light,
+                            0 0 40px $border-light,
+                            0 0 80px $border-light,
+                            0 0 100px $border-light;
+            }
+        }
+    }
+}

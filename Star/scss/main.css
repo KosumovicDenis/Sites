@@ -1,0 +1,20 @@
+body {
+  background: #001055;
+}
+
+body .bg-light {
+  background: #234794 !important;
+}
+
+body .container {
+  margin-top: 100px;
+  padding: 70px;
+  border-radius: 10px;
+}
+
+body .container .row img {
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 0 2px #120472, 0 0 20px #120472, 0 0 40px #120472, 0 0 80px #120472, 0 0 100px #120472;
+          box-shadow: 0 0 0 2px #120472, 0 0 20px #120472, 0 0 40px #120472, 0 0 80px #120472, 0 0 100px #120472;
+}
+/*# sourceMappingURL=main.css.map */
