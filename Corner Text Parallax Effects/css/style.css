@@ -1,17 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Architects Daughter', cursive;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Press Start 2P', cursive;
 }
 
 * section {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: #321;
+  background: #222;
   overflow: hidden;
   color: #e2bc95;
 }
@@ -22,13 +22,36 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #123;
+  background: #333;
   -webkit-clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
           clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
 }
 
-* section .angolo1 h2 {
+* section .angolo1 h3, * section .angolo2 h3 {
   position: absolute;
   width: 100%;
+  text-align: center;
+  font-size: 22rem;
+  line-height: 1em;
+  color: #62918e;
+  cursor: pointer;
+}
+
+* section .angolo1 {
+  position: relative;
+  top: 50px;
+  -webkit-transform: skewY(20deg);
+          transform: skewY(20deg);
+}
+
+* section .angolo1 h3 {
+  opacity: 0.6;
+}
+
+* section .angolo2 {
+  position: relative;
+  top: 50px;
+  -webkit-transform: skewY(340deg);
+          transform: skewY(340deg);
 }
 /*# sourceMappingURL=style.css.map */
