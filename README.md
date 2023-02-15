@@ -1,7 +1,11 @@
 # Some Css/Js Animations.
 
-Hi, in this repository you can find some animations made with css and js.
-<p>Examples:</p>
+A collation of animations and effetcs made with html, css and js.
+
+## What can you find?
+
+Some example of what type of effetcs are here:
+
 <ul>
  <li>Particles</li>
  <li>Parallax</li>
