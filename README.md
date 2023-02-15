@@ -1,10 +1,10 @@
-# Some Css/Js Animations.
+# Some Html/Css/Js Animations.
 
-A collation of animations and effetcs made with html, css and js.
+A collation of animations and effects made with html, css and js.
 
 ## What can you find?
 
-Some example of what type of effetcs are here:
+Some examples:
 
 <ul>
  <li>Particles</li>
